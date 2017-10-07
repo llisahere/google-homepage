@@ -28,8 +28,8 @@ img.apps {
 
 img.shield {
     vertical-align: middle;
-    height: 8%;
-    width: 8%;
+    height: 5%;
+    width: 5%;
 }
 
 #shieldlink:hover {
@@ -67,8 +67,9 @@ button:hover {
 
 .searchbar {
     border:none;
-    height: 45px;
-    width: 459px;
+    height: 44px;
+    line-height: 44px;
+    width: 484px;
     margin: 10px 0px;
     border-radius: 1px;
     box-shadow: 0 1px 1px 1px #EFEDED;
@@ -102,16 +103,23 @@ a:active {
 
 .topnav ul{
     list-style-type: none;
+    display: block;
+    position: relative;
     font-size: 13px;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
-.topnav li {
+.topright li {
   float: right;
 }
 
+.topleft li {
+  margin-left: 20px;
+  margin-top: 27px;
+  float:left;
+}
 .topnav li a{
     display: block;
     color: #727272;

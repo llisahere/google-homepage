@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-
+    <link href="styles/reset.css" rel="stylesheet" type="text/css" media="all">
     <link href="styles/style.css" rel="stylesheet" type="text/css" media="all">
     <title>My copy of Google</title>
   </head>
@@ -10,11 +10,18 @@
   <body>
     <div class="topnav">
       <ul>
-          <li><a href="http://www.cruzedge.com"><img src="images/mypic45by46.png" id="myaccount" width="40" height="40"></a></li>
-          <li><a href="https://uk.ign.com" title="Google Notifications" role="button" id="goognotif"><img class="bell" src="images/goognotif28by30.png" width="30" height="30"></a></li>
-          <li><a href="https://www.google.com/intl/en/about/products/" title="Google apps" role="button" id="googapp"><img class="apps" src="images/googapps.png" width="30" height="30"></a></li>
-          <li><a href="https://www.google.com/imghp?hl=en&tab=wi&ei=vpNsWcGgL4eTsgGBhJ_QBA&ved=0EKouCBQoAQ" role="button" id="googimg">Images</a></li>
-          <li><a href="https://mail.google.com/mail/u/0/#inbox" id="googmail">Gmail</a></li>
+          <div class="topleft">
+            <li><a href="https://www.google.com/intl/en/about/">About</a></li>
+            <li><a href="https://store.google.com/?utm_source=hpp_permanent&utm_medium=google_oo&utm_campaign=GS100042">Store</a></li>
+          </div>
+
+          <div class="topright">
+            <li><a href="http://www.cruzedge.com"><img src="images/mypic45by46.png" id="myaccount" width="40" height="40"></a></li>
+            <li><a href="https://uk.ign.com" title="Google Notifications" role="button" id="goognotif"><img class="bell" src="images/goognotif28by30.png" width="30" height="30"></a></li>
+            <li><a href="https://www.google.com/intl/en/options/" title="Google apps" role="button" id="googapp"><img class="apps" src="images/googapps.png" width="30" height="30"></a></li>
+            <li><a href="https://www.google.com/imghp?hl=en&tab=wi" role="button" id="googimg">Images</a></li>
+            <li><a href="https://mail.google.com/mail/u/0/#inbox" id="googmail">Gmail</a></li>
+          </div>
       </ul>
     </div>
 
@@ -26,7 +33,7 @@
 
     <div >
       <form>
-        <input class="searchbar" type="text"  name="gsearch" size="50"><br>
+        <input class="searchbar" type="text"  name="gsearch" ><br>
         <button type="submit">Google Search</button>
         <button type="submit">I'm Feeling Lucky</button>
       </form>
@@ -43,12 +50,12 @@
   <div class="footer">
     <ul>
       <li><a href="https://www.google.com/intl/en/ads/?fg=1">Advertising</a></li>
-      <li><a href="https://www.google.com/services">Business</a></li>
-      <li><a href="https://www.google.com/intl/en/about/">About</a></li>
+      <li><a href="https://www.google.com/services/?fg=1">Business</a></li>
+
         <div class=foot_right>
 
           <li><a href="https://www.google.com/preferences?hl=en">Settings</a></li>
-          <li><a href="https://www.google.com/intl/en/policies/terms/regional.html">Terms</a></li>
+          <li><a href="https://www.google.com/intl/en/policies/terms/?fg=1">Terms</a></li>
           <li><a href="https://www.google.com/intl/en/policies/privacy/?fg=1">Privacy</a></li>
         </div>
     </ul>
